@@ -12,30 +12,43 @@
             margin: 0;
             padding: 10px;
         }
+        .menu{
+            background-color: slategray;
+        }
+        .menu a{
+            color: black;
+            text-decoration: none;
+            display: block;
+            float: left;
+            padding :10px;
+        }
         .menu a:hover{
         color: purple;
         background-color: pink;
         }
         .conteudo{
-            size: 20px;
+            clear: both;
         }
         .col-left{
             float: left;
             padding: 10px;
             width: 20%;
+            background-color: slategray;
         }
         .col-right{
-            float:right;
+            float:left;
             padding: 10px;
             width: 20%;
+            background-color: slategray;
         }
         .col-center{
             float: left;
             padding: 10px;
             width: 60%;
+            background-color: gray;
         }
     </style>
-   <div> <h1 class="cabecalho"> CABEÇALHO</h1> </div>
+   <div class="cabecalho"> <h1>CABEÇALHO</h1> </div>
 </head>
 <body>
     <div class="menu">
@@ -45,19 +58,22 @@
          <a href="#">Home</a>
         </div>
 
+        <div class="conteudo">
     <div class="col-left">
         <h2>Lado</h2>
         <p>Left side</p>
     </div>
+
     <div class="col-center">
         <h3>Meio</h3>
         <p>Middle</p>
     </div>
+
     <div class="col-right">
         <h4>Lado</h4>
         <p>Right side</p>
     </div>
-    
+</div>
    
 </body>
 </html>
